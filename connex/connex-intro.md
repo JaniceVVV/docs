@@ -1,6 +1,6 @@
 
 # Get Started 
-Connex is the standard interface to connect VeChain apps with VeChain blockchain and user. Connex is a set of well-designed APIs for developers, with injected Connex Object in web applications they can easily build decentralized applications.Before we start, you might need to know some basic knowledge about VeChainThor. it may help you to have a bigger picture to understand the feature and basic knowleage to develope an applicaton 
+Connex is the standard interface to connect VeChain apps with VeChainThor blockchain and user. Connex is a set of well-designed APIs for developers, with injected Connex Object in web applications they can easily build decentralized applications.Before we start, you might need to know some basic knowledge about VeChainThor. it may help you to have a bigger picture to understand the feature and basic knowleage to develope an applicaton 
 
 ## VeChain App Bootstrapping
 
@@ -55,13 +55,13 @@ document.querySelector('body').append(el)
 ![connex-architecture](~@public/images/connex/architecture.png)
 
 ## Implementation Test
-Implementation test is a `BDD` test for connex client implementation. you can test for @vechain/connex in [here](https://connex-impl-test.vecha.in/)
+Implementation test is a `BDD` test for connex client implementation. you can test for `@vechain/connex` in [here](https://connex-impl-test.vecha.in/)
 
 
 ### Requirements
 
 + [Running thor](/thor/get-started/installation.md#running-thor) under `TestNet`
-+ `Connex.Vendor` needs user to interact (Signing should be complected in 40 seconds or it will fail)
++ `Connex.Vendor` needs user to interact (Signing should be completed in 40 seconds or it will fail)
 + `0x7567d83b7b8d80addcb281a71d54fc7b3364ffed` need to be added to wallet
 
 :::tip note
